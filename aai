@@ -1,1 +1,10 @@
-kljfdlksdf
+{
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://github.com/"
+    }
+  ]
+}
