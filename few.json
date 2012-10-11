@@ -5,6 +5,13 @@
     {
       "type": "get",
       "url": "http://sebuilder.github.com/se-builder/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": ""
+      }
     }
   ]
 }
