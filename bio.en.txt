@@ -1,0 +1,6 @@
+Start Firefox (like a boss)
+(When you follow these steps, make sure page content is loaded before clicking, etc... Since you're a human, this is probably what you do already)
+
+- Navigate to http://sebuilder.github.com/se-builder/fishy
+
+You're done! Sweet.
