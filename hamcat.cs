@@ -39,7 +39,7 @@ namespace SeleniumTests
 		public void TheUntitledTest()
 		{
 			selenium.Open("/se-builder/");
-			selenium.WaitForPageToLoad("60000");
+			selenium.WaitForPageToLoad("50000");
 		}
 	}
 }
