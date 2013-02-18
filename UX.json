@@ -1,0 +1,19 @@
+{
+  "type": "suite",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "scripts": [
+    {
+      "where": "github",
+      "path": "ALPHA.json"
+    },
+    {
+      "where": "github",
+      "path": "BETA.json"
+    },
+    {
+      "where": "github",
+      "path": "GAMMA.json"
+    }
+  ]
+}
