@@ -5,10 +5,6 @@
   "scripts": [
     {
       "where": "github",
-      "path": "ALPHA.json"
-    },
-    {
-      "where": "github",
       "path": "BETA.json"
     }
   ]
