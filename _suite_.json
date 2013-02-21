@@ -1,0 +1,19 @@
+{
+  "type": "suite",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "scripts": [
+    {
+      "where": "github",
+      "path": "_1_.json"
+    },
+    {
+      "where": "github",
+      "path": "_2_.json"
+    },
+    {
+      "where": "github",
+      "path": "_3_.json"
+    }
+  ]
+}
