@@ -5,10 +5,6 @@
   "scripts": [
     {
       "where": "github",
-      "path": "02.json"
-    },
-    {
-      "where": "github",
       "path": "01.json"
     }
   ]
