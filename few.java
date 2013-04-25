@@ -25,7 +25,7 @@ public class few {
     
     @Test
     public void few() {
-        wd.get("http://www.metafilter.com/");
+        wd.get("http://www.metfffafilter.com/");
     }
     
     @After
