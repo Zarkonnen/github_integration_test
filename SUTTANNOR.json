@@ -10,6 +10,10 @@
     {
       "where": "github",
       "path": "jiu9.json"
+    },
+    {
+      "where": "github",
+      "path": "TRIOLET.json"
     }
   ]
 }
