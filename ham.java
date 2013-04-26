@@ -1,16 +1,14 @@
-import junit.framework.Test;
-import junit.framework.TestSuite;
+package com.example.tests;
 
-public class Ham {
+import com.thoughtworks.selenium.*;
+import java.util.regex.Pattern;
 
-	public static Test suite() {
-		TestSuite suite = new TestSuite();
-		suite.addTestSuite(wrewf.class);
-		suite.addTestSuite(qqq.class);
-		return suite;
+public class ham extends SeleneseTestCase {
+	public void setUp() throws Exception {
+		setUp("http://www.metafilter.com", "*chrome");
 	}
-
-	public static void main(String[] args) {
-		junit.textui.TestRunner.run(suite());
+	public void testHam() throws Exception {
+		selenium.open("/");
+		selenium.waitForPageToLoad("60000");
 	}
 }
