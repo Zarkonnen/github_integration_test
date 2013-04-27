@@ -1,0 +1,37 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 1,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://encrypted.google.com/"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "gbqfq"
+      },
+      "text": "santiago suarez ordoñez"
+    },
+    {
+      "type": "waitForElementPresent",
+      "locator": {
+        "type": "xpath",
+        "value": "//ol[@id='rso']//em[.='Santiago Suarez Ordoñez']"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//ol[@id='rso']//em[.='Santiago Suarez Ordoñez']"
+      }
+    },
+    {
+      "type": "waitForTextPresent",
+      "text": "Suarez Ordoñez"
+    }
+  ]
+}
